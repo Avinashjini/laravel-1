@@ -6,5 +6,5 @@ WORKDIR /app
 COPY . /app
 RUN composer install
 
-CMD php -S 172.10.1.3:8057 -t public
-EXPOSE 8057
+CMD php -S 172.10.1.3:8058 -t public
+EXPOSE 8058
