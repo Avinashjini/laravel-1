@@ -6,5 +6,5 @@ WORKDIR /app
 COPY . /app
 RUN composer install
 
-CMD php -S 172.10.1.3:8181
+CMD php -S 172.10.1.3:8181 -t public
 EXPOSE 8181
